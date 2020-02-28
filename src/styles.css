@@ -1,1 +1,407 @@
-/* You can add global styles to this file, and also import other style files */
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-size: 18px;
+}
+.navbarAb {
+    background-color: transparent;
+    border: 1px solid black;   
+    position: absolute;
+    width: 100%; 
+    z-index: 1;
+}
+.navbar .nav-item{
+    font-size: 22px;
+    text-shadow: 0 3px 3px #444;
+}
+.navbar .navbar-brand{
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    text-shadow: 0 3px 3px #444;
+}
+.navbar .navbar-nav{
+    margin-left: auto;
+}
+.navbar .navbar-form{
+    margin: auto;
+}
+.livro img{
+    height: 400px;    
+}
+.text-blue{
+    color: #3E84D5;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+  
+}
+  hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+  
+}
+
+.text-blue2{
+    color: #003768;
+}
+.text-gray{
+    color: #777777;
+}  
+.fundo img{
+    width: 100%;
+    height: auto;
+
+}
+.center {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: #FFF;
+    text-shadow: 0 3px 3px #444;
+}
+.center2 {
+    position: absolute;
+    margin-top: 70px;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #FFF;
+    text-shadow: 0 3px 3px #444;
+
+}
+
+.texto{
+    width: 500px;
+
+}
+.socialm {
+    height: 40px;
+    margin: .5rem;
+    
+    
+}
+.foot{
+    margin: 50px;
+}
+#foto{
+    background-size: contain;
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    z-index: -1;
+    margin-top: -50%;
+    
+    
+}
+.blue-container {
+    width: 100%;
+    background-color: #5A98CF;
+    color: white;
+    margin-top: 50px;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+    border-bottom-right-radius: 40px;
+    margin-bottom: 50px;
+
+}
+.blue-container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #5A98CF;
+    position: absolute;
+    bottom: -39px;
+    z-index: -2; 
+}
+.blue-container:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    bottom: -80px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    
+}
+#blue:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #5A98CF;
+    position: absolute;
+    right: 0;
+    top: -39px;
+    z-index: -2; 
+}
+#blue:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    top: -80px;
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    
+}
+.blue-container ul{
+    transform: skewY(2deg);
+}
+.card2{
+    border: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.azul{
+    
+    background-color: #D8EDFF;
+}
+.azul2{
+    background-color: #5A98CF;
+}
+
+footer {
+    background-color: #333333;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    
+}
+footer p{
+    font-size: 16px;
+}
+#foot1 {
+    justify-content: flex-end;
+    padding: .5rem;
+
+}
+.hover{
+    display: inline-block;
+    cursor: pointer;
+}
+.hover:hover{
+    transform: scale(1.1);
+
+}
+.escrito h4{
+    margin-top: 100px
+}
+.escrito p{
+    margin-top: 20px
+}
+.card{
+    display: inline-block;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .vanish{
+        display: none;
+    }
+    .vanish1{
+        display: none;
+    }
+    .livro img{
+        height: 250px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .card{
+        margin: 20px;
+    }
+    .produtofim{
+        margin-top: 50px;
+        
+        text-align: center;
+    }
+    .mobile{
+        
+        text-align: center;
+    }
+    .navbarAb {
+        background-color: #5A98CF;
+        border: 1px solid black;
+        width: 100%; 
+        
+    }
+    .navbar .navbar-brand{
+        color: #FFF;    
+        font-size: 1.2rem;
+        text-shadow: 0 3px 3px #444;
+    }
+
+    .navbar .nav-item{
+        font-size: 1rem;
+        text-shadow: 0 3px 3px #444;
+    }
+    .fundo img{
+        width: 100%;
+        height: auto;
+        margin-top: 55px;
+    
+    }
+    .center {
+        position: absolute;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: #FFF;
+        text-shadow: 0 3px 3px #444;
+    }
+      
+    .center2 {
+        position: absolute;
+        margin-top: 50px;
+        left: 0;
+        top: 35%;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #FFF;
+        text-shadow: 0 3px 3px #444;
+    
+    }
+    .texto{
+        width: 400px;
+        size: 25px;
+    
+    }
+    .mobiletext{
+        text-align: center;
+       
+    }
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size: small;
+    }
+    .escrito{
+        text-align: center;    
+    }
+    .escrito h4{
+        margin-top: 5px
+    }
+    .escrito p{
+        margin-top: 20px
+    }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .mobile{
+        display: none;
+    }
+    .mobiletext{
+        text-align: center;
+       
+    }
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size: small;
+    }
+    .escrito{
+        text-align: center;    
+    }
+    .escrito h4{
+        margin-top: 50px
+    }
+    .escrito p{
+        margin-top: 10px
+    }
+    .vanish1{
+        display: none;
+    }
+    .vanish{
+        display: none;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    
+    .produtofim{
+        margin-top: 50px;
+        padding: 100px 0px 100px 0px ;
+    }
+    .mobile{
+        display: none;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    
+    .produtofim{
+        margin-top: 50px;
+        padding: 100px 0px 100px 0px ;
+    }
+    .mobile{
+        display: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .vanish{
+        display: block;
+    }
+    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+    .produtofim{
+        margin-top: 50px;
+        padding: 100px 0px 100px 0px ;
+    }
+    .mobile{
+        display: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 22;
+    }
+    h1{
+        font-size: 34px;
+    }
+    .vanish1{
+        display: block;
+    }
+    .vanish{
+        display: block;
+    }
+
+
+}
+
+
+
+
+
